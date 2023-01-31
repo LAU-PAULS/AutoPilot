@@ -2,5 +2,5 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 Install-Script -name Get-WindowsAutopilotInfo -Force
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
 
-Get-WindowsAutopilotInfo -OutputFile 'C:\Temp\AutopilotHWID.csv'
+Get-WindowsAutopilotInfo -OutputFile AutopilotHWID.csv
 #Get-WindowsAutopilotInfo -Online
